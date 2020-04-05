@@ -1,5 +1,6 @@
 const url = require('url'),
-  uuid = require('uuid/v1');
+  uuid = require('uuid/v1'),
+  _ = require("lodash");
 
 const crypto = require('../lib/helpers/crypto'),
   RestController = require('../core/Controller/RestController.js');
