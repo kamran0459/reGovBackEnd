@@ -1,0 +1,28 @@
+{
+  "reGov": {
+    "upload": {
+      "customMapping": true,
+      "MappingFunctionName": "upload",
+      "CustomMappingFile": "fileUpload/index.js",
+      "mappingConfigFile": "ePayMapping"
+    },
+    "uploadDocument": {
+      "customMapping": true,
+      "MappingFunctionName": "uploadDocument",
+      "CustomMappingFile": "fileUpload/index.js",
+      "mappingConfigFile": "ePayMapping"
+    },
+    "download": {
+      "customMapping": true,
+      "MappingFunctionName": "download",
+      "CustomMappingFile": "fileUpload/index.js",
+      "mappingConfigFile": "ePayMapping"
+    },
+    "register": {
+      "customMapping": true,
+      "MappingFunctionName": "userRegistration",
+      "CustomMappingFile": "users/users.js",
+      "mappingConfigFile": "ePayMapping"
+    }
+  }
+}

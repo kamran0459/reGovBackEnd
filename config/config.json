@@ -1,0 +1,11 @@
+
+{
+    "keyVault": {
+      "env": "UTC_PROJ",
+      "header":{
+        "username": "vaultKeeper",
+        "password": "DSGkeeper@321"
+      },
+      "url": "http://23.97.138.116:9009/KeyVault"
+    }
+  }

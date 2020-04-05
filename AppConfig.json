@@ -1,0 +1,20 @@
+{
+  "CustomFunctionsLocation": "../mappingFunctions/",
+  "MappingConfig": "../mappingConfig/",
+  "TimestampType": "UTC",
+  "APIVersion": "v1",
+  "Error": {
+    "CommErr": {
+      "Code": "002",
+      "Message": "Communication Error"
+    },
+    "ParseErr": {
+      "Code": "003",
+      "Message": "Parsing Error"
+    },
+    "GeneralError": {
+      "Code": "004",
+      "Message": "Some Error Occurred While Processing Transaction"
+    }
+  }
+}
