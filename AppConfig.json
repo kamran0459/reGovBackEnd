@@ -1,4 +1,5 @@
 {
+  "restURL": "http://localhost:3000",
   "CustomFunctionsLocation": "../mappingFunctions/",
   "MappingConfig": "../mappingConfig/",
   "TimestampType": "UTC",

@@ -6,10 +6,7 @@ const RoutesHandler = require('./routesHandler');
 
 
 router.post('/login', function (req, res) {
-  res.cookie("user", "login", {
-    "path": "/",
-    "host-only-flag": true
-  });
+
   const payload = req.body;
   payload.action = '/login';
   payload.remoteAddress = req.connection.remoteAddress;
